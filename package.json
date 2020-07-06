@@ -1,0 +1,51 @@
+{
+	"name": "@superblocks-at/formulajs-functions",
+	"version": "0.9.4",
+	"description": "Add excel functions from @formulajs/formulajs to the Airtable formulas superblock",
+	"main": "index.js",
+	"scripts": {
+		"clean": "rm -rf dist",
+		"build": "npm run build:umd && npm run build:min && rm dist/functions.js",
+		"build:umd": "rm -rf umd; mkdir umd; rollup -c",
+		"build:min": "uglifyjs dist/functions.js > dist/functions.min.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/superblocks-at/formulajs-functions.git"
+	},
+	"keywords": [
+		"Airtable",
+		"superblock",
+		"superblocks",
+		"Superblocks.at",
+		"formulas-superblock-functions",
+		"formulas",
+		"formula",
+		"formulajs",
+		"@formulajs/formulajs",
+		"excel",
+		"sheets",
+		"google sheets"
+	],
+	"author": "Superblocks.at",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/superblocks-at/formulajs-functions/issues"
+	},
+	"homepage": "https://github.com/superblocks-at/formulajs-functions",
+	"dependencies": {
+		"@formulajs/formulajs": "^2.4.3"
+	},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^13.0.0",
+		"@rollup/plugin-node-resolve": "^8.1.0",
+		"rollup": "^2.19.0",
+		"uglify-js": "^3.10.0"
+	},
+	"files": [
+		"README.md",
+		"LICENSE.md",
+		"src",
+		"umd"
+	]
+}
