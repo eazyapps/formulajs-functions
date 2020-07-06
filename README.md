@@ -8,7 +8,7 @@ Adds excel functions from the [@formulajs/formulajs](https://www.npmjs.com/packa
 
 2. Click on _Add functions_ in the Formulas superblock and add the following script URL:
 
-https://unpkg.com/@superblocks-at/formulajs-functions@latest/umd/functions.js
+[https://unpkg.com/@superblocks-at/formulajs-functions@latest/umd/functions.js](https://unpkg.com/@superblocks-at/formulajs-functions@latest/umd/functions.js)
 
 ## Contributions
 

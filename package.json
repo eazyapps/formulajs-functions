@@ -1,6 +1,6 @@
 {
 	"name": "@superblocks-at/formulajs-functions",
-	"version": "0.9.4",
+	"version": "0.9.5",
 	"description": "Add excel functions from @formulajs/formulajs to the Airtable formulas superblock",
 	"main": "index.js",
 	"scripts": {
